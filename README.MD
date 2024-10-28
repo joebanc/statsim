@@ -8,4 +8,4 @@ It used to stand for statistics simulator but has expanded functions over time. 
 CBMS has already been institutionalised and absorbed by government units and as such using their own fit-for-purpose tools. This tool is a legacy tool as reference and and springboard to different toolsets.
 
 # Contact
-Original author: [Joel Bancolita](mailto: joel.e.bancolita@gmail.com)
+Original author: [Joel Bancolita](mailto:Joel.e.bancolita@gmail.com)

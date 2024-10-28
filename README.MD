@@ -1,26 +1,11 @@
 # STATSIM
-**STATSIM** is a local data statistics simulator originally developed for [Community Based Monitoring System (CBMS)](https://www.pep-net.org/methods/cbms).
+**STATSIM** is a local data statistics and spatial data modeler and visualiser originally developed for [Community Based Monitoring System (CBMS)](https://www.pep-net.org/methods/cbms). 
 
-It is inspired from:
-* [Earth](https://earth.nullschool.net/#current/wind/surface/level/orthographic=-343.58,23.08,421)
-* [Wind map](http://hint.fm/wind/)
+# Evolution
+It used to stand for statistics simulator but has expanded functions over time. Originally developed using C++, currently it is undergoing evolution to adapt to fast-changing analytics landscape, incorporating several up-to-date tools for visualisation, statistical methods and spatial analysis particularly **R**.
 
-The implementation have a server side daemon, `windy.py`, that collects new data from SMHI every hour. Results are 
-stored into two json files: `msl.json` (air pressure) and `wind.json`. For implementation, see blog entry 
-[here](https://wlog.viltstigen.se/articles/2021/11/08/visualizing-wind-using-leaflet/)
+# Way forward
+CBMS has already been institutionalised and absorbed by government units and as such using their own fit-for-purpose tools. This tool is a legacy tool as reference and and springboard to different toolsets.
 
-
-The visualization is on the client side, using [Leaflet](https://leafletjs.com/) and its plugin 
-[leaflet-velocity](https://github.com/onaci/leaflet-velocity).
-
-The result can be seen [here](https://www.viltstigen.se/windy/windy.html)
-
-### Bilinear transformations
-As an added bonus, `bil.py` implements bilinear interpolation of a square surface and display the results.
-The implementation is following the [Wikipedia article](https://en.wikipedia.org/wiki/Bilinear_interpolation).
-
-Why this?
-
-When studying the background for displaying wind directions and velocities as a vector field, references to bilinear
-interpolation were made, and I got curious. Hence, I wanted to make a simple experiment and added this to the 
-repository. It got stuck there.
+# Contact
+Original author: [Joel Bancolita](mailto: joel.e.bancolita@gmail.com)

@@ -1,0 +1,6 @@
+; StatSimAPI.def : Declares the module parameters for the DLL.
+
+LIBRARY      "StatSimAPI"
+
+EXPORTS
+    ; Explicit exports can go here

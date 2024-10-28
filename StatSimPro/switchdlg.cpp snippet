@@ -1,0 +1,86 @@
+				if (nlines==0) {  //first row of the file
+					if (wheader) {
+						if (sqlheader) {
+							//CBMS Specific
+							if (ncols==0) {
+								if (qnrtables[idx][i]=="hpq_hh") 
+									sqlinit << "(" << "`id`";
+								else
+									sqlinit << "(" << "`hpq_hh_id`";
+							}
+							else if (ncols==1) {
+								if (qnrtables[idx][i]!="hpq_hh") 
+									sqlinit << "," << "`id`";
+							}
+							else {
+								//replace the enclosing quotes with sql apos						
+								size_t quote0=col.find_first_of(defenc),
+									quote1=col.find_last_of(defenc);
+								col.replace(quote1,1,1,sqlenc);
+								col.replace(quote0,1,1,sqlenc);
+								
+								sqlinit << "," << col;
+							}
+						}
+						else {
+							if (col.find('\n')!=string::npos) {	//newline - danger?
+								nlines++;
+								ncols=0;
+								continue;
+							}
+							//skip first row when there is no header sql
+							//continue;	//i don't know why this seems to exit to the first for loop
+							ncols++;
+							continue;
+						}
+					}
+					else {
+						if (ncols==0)
+							sqlbody << "\n VALUES(" << col;
+						else
+							sqlbody << "," << col;
+					}
+				}
+				else {
+					//if (ncols==0)
+					sqlputa << "\n VALUES(" << col;					
+					//else
+					//	sqlbody << "puta";
+					
+					stringstream msg;
+					msg << nlines <<","<<ncols;
+					AfxMessageBox((CString) msg.str().c_str());
+					AfxMessageBox((CString) sqlputa.str().c_str());
+
+				}
+
+				if (col.find('\n')!=string::npos) {	//newline
+
+					stringstream sql;
+					if (wheader) {
+						if (nlines>0) {	//ignore first line when with header
+							sql << sqlinit.str() << sqlbody.str() << ");";
+							AfxMessageBox((CString) sql.str().c_str());
+							sqlbody=stringstream();
+							pGlobalConn->ExecuteSQL((CString) sql.str().c_str());
+						}
+						else {
+							sqlinit << ") ";
+						}
+					}
+					else {
+						sql << sqlinit.str() << sqlbody.str();
+						AfxMessageBox((CString) sql.str().c_str());
+						sqlbody=stringstream();
+						pGlobalConn->ExecuteSQL((CString) sql.str().c_str());
+					}
+
+					ncols=0;	//reset number of columns and body
+					nlines++; //increment lines
+					continue;
+
+				}
+
+				ncols++; //increament ncols (if not new line)
+				
+			}

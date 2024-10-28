@@ -1,0 +1,5 @@
+; nrdbapi.def : Declares the module parameters for the DLL.
+LIBRARY NRDBAPI
+DESCRIPTION  'NRDB Database Library'
+
+EXPORTS;

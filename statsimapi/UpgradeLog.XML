@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="StatSimAPI">
+</Property><Property Name="Solution File" Value="D:\documents\current StatSimPro\statsimapi\StatSimAPI.sln">
+</Property><Property Name="User Options File" Value="D:\documents\current StatSimPro\statsimapi\StatSimAPI.suo">
+</Property><Property Name="Date" Value="Thursday, September 08, 2011">
+</Property><Property Name="Time" Value="11:23 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="StatSimAPI.sln" Description="File successfully backed up as D:\documents\current StatSimPro\statsimapi\StatSimAPI.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="StatSimAPI.suo" Description="File successfully backed up as D:\documents\current StatSimPro\statsimapi\StatSimAPI.suo.old">
+</Event><Event ErrorLevel="0" Project="StatSimAPI" Source="StatSimAPI\StatSimAPI.vcproj" Description="Converting project file 'D:\documents\current StatSimPro\statsimapi\StatSimAPI\StatSimAPI.vcproj'.">
+</Event><Event ErrorLevel="1" Project="StatSimAPI" Source="StatSimAPI\StatSimAPI.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="StatSimAPI" Source="StatSimAPI\StatSimAPI.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="StatSimAPI" Source="StatSimAPI\StatSimAPI.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="StatSimAPI" Source="StatSimAPI\StatSimAPI.vcproj" Description="MSB8012: $(TargetPath) ('D:\documents\current StatSimPro\statsimapi\StatSimAPI\Debug\StatSimAPI.dll') does not match the Linker's OutputFile property value '../../build/Debug\StatSimAPI.dll' ('D:\documents\current StatSimPro\statsimapi\../../build/Debug\StatSimAPI.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="StatSimAPI" Source="StatSimAPI\StatSimAPI.vcproj" Description="MSB8012: $(TargetPath) ('D:\documents\current StatSimPro\statsimapi\StatSimAPI\Release\StatSimAPI.dll') does not match the Linker's OutputFile property value '../../build/Release\StatSimAPI.dll' ('D:\documents\current StatSimPro\statsimapi\../../build/Release\StatSimAPI.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="StatSimAPI" Source="StatSimAPI\StatSimAPI.vcproj" Description="Done converting to new project file 'D:\documents\current StatSimPro\statsimapi\StatSimAPI\StatSimAPI.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="StatSimAPI" Source="StatSimAPI\StatSimAPI.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="StatSimAPI.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="StatSimAPI.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,1062 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\StatSimPro.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""afxribbon.rc""              // MFC ribbon and control bar resources\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\StatSimPro.ico"
+IDR_StatSimProTYPE      ICON                    "res\\StatSimProDoc.ico"
+IDI_DATA_VIEW           ICON                    "res\\DATA_VIEW.ico"
+IDI_DATA_VIEW_HC        ICON                    "res\\DATA_VIEW_hc.ico"
+IDI_REPORT_VIEW         ICON                    "res\\REPORT_VIEW.ico"
+IDI_REPORT_VIEW_HC      ICON                    "res\\REPORT_VIEW_hc.ico"
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+IDI_PROPERTIES_WND      ICON                    "res\\properties_wnd.ico"
+IDI_PROPERTIES_WND_HC   ICON                    "res\\properties_wnd_hc.ico"
+IDI_KEYS                ICON                    "res\\KEYS.ICO"
+IDI_UNCHECKED           ICON                    "res\\unchecked.ico"
+IDI_CHECKED             ICON                    "res\\checked.ico"
+IDI_NOCHECK             ICON                    "res\\nocheck.ico"
+IDI_PARTIALLY           ICON                    "res\\partially.ico"
+IDI_GLOBE               ICON                    "res\\globe.ico"
+IDI_GLOBEOK             ICON                    "res\\globeok.ico"
+IDI_FFWD                ICON                    "res\\ffwd.ico"
+IDI_FREW                ICON                    "res\\frew.ico"
+IDI_REW                 ICON                    "res\\rew.ico"
+IDI_FWD                 ICON                    "res\\fwd.ico"
+IDI_TEXTFILE            ICON                    "res\\textfile.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+IDB_MAIN                BITMAP                  "res\\main.bmp"
+IDB_FILELARGE           BITMAP                  "res\\filelarge.bmp"
+IDB_FILESMALL           BITMAP                  "res\\filesmall.bmp"
+IDB_WRITELARGE          BITMAP                  "res\\writelarge.bmp"
+IDB_WRITESMALL          BITMAP                  "res\\writesmall.bmp"
+IDB_BUTTONS             BITMAP                  "res\\buttons.bmp"
+IDR_SORT                BITMAP                  "res\\sort.bmp"
+IDB_SORT_24             BITMAP                  "res\\sort_hc.bmp"
+IDB_DATA_VIEW           BITMAP                  "res\\DataView.bmp"
+IDB_DATA_VIEW_24        BITMAP                  "res\\DataView_hc.bmp"
+IDB_REPORT_VIEW         BITMAP                  "res\\reportview.bmp"
+IDB_REPORT_VIEW_24      BITMAP                  "res\\ReportView_hc.bmp"
+IDR_EXPLORER            BITMAP                  "res\\explorer.bmp"
+IDB_EXPLORER_24         BITMAP                  "res\\explorer_hc.bmp"
+IDR_MENU_IMAGES         BITMAP                  "res\\menuimages.bmp"
+IDB_MENU_IMAGES_24      BITMAP                  "res\\menuimages_hc.bmp"
+IDR_PROPERTIES          BITMAP                  "res\\properties.bmp"
+IDB_PROPERTIES_HC       BITMAP                  "res\\properties_hc.bmp"
+IDB_LOGIN               BITMAP                  "res\\login.bmp"
+IDB_INFO                BITMAP                  "res\\info.bmp"
+IDB_FILE_VIEW           BITMAP                  "res\\fileview.bmp"
+IDB_FILE_VIEW_24        BITMAP                  "res\\fileview_hc.bmp"
+IDB_NAVIGATION_LARGE    BITMAP                  "res\\nav_large.bmp"
+IDB_NAVIGATION_LARGE_HC BITMAP                  "res\\nav_large_hc.bmp"
+IDB_PAGES               BITMAP                  "res\\pages.bmp"
+IDB_PAGES_HC            BITMAP                  "res\\pages_hc.bmp"
+IDB_PAGES_SMALL         BITMAP                  "res\\pages_small.bmp"
+IDB_PAGES_SMALL_HC      BITMAP                  "res\\pages_small_hc.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_SORT TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_SORT_MENU
+    BUTTON      ID_NEW_FOLDER
+END
+
+IDR_EXPLORER TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_PROPERTIES
+END
+
+IDR_MENU_IMAGES TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_WINDOW_MANAGER
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_TOOLS_MACRO
+    BUTTON      ID_SORTING_SORTALPHABETIC
+    BUTTON      ID_SORTING_SORTBYTYPE
+    BUTTON      ID_SORTING_SORTBYACCESS
+    BUTTON      ID_SORTING_GROUPBYTYPE
+END
+
+IDR_PROPERTIES TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_EXPAND_ALL
+    BUTTON      ID_SORTPROPERTIES
+    BUTTON      ID_PROPERTIES1
+    BUTTON      ID_PROPERTIES2
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_EDITLEVEL MENU
+BEGIN
+    POPUP "Level"
+    BEGIN
+        MENUITEM "Edit...",                     ID_LEVEL_EDIT
+        MENUITEM "Delete...",                   ID_LEVEL_DELETE
+    END
+END
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "Import\tCtrl+I",              ID_FILE_IMPORT
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        POPUP "&Application Look"
+        BEGIN
+            MENUITEM "Windows &2000",               ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office &XP",                  ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "&Windows XP",                 ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 200&3",                ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio.NET 200&5",     ID_VIEW_APPLOOK_VS_2005
+            POPUP "Office 200&7"
+            BEGIN
+                MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "&Aqua Style",                 ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About StatSimPro...",        ID_APP_ABOUT
+    END
+END
+
+IDR_StatSimProTYPE MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        POPUP "&Application Look"
+        BEGIN
+            MENUITEM "Windows &2000",               ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office &XP",                  ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "&Windows XP",                 ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 200&3",                ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio.NET 200&5",     ID_VIEW_APPLOOK_VS_2005
+            POPUP "Office 200&7"
+            BEGIN
+                MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "&Aqua Style",                 ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About StatSimPro...",        ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+IDR_WINDOWS_MENU MENU
+BEGIN
+    MENUITEM "&New Window",                 ID_WINDOW_NEW
+END
+
+IDR_POPUP_SORT MENU
+BEGIN
+    POPUP "Sorting"
+    BEGIN
+        MENUITEM "&Sort Alphabeticaly",         ID_SORTING_SORTALPHABETIC
+        MENUITEM "Sort by &Type",               ID_SORTING_SORTBYTYPE
+        MENUITEM "Sort by Acc&ess",             ID_SORTING_SORTBYACCESS
+        MENUITEM "Group by t&ype",              ID_SORTING_GROUPBYTYPE
+    END
+END
+
+IDR_POPUP_EXPLORER MENU
+BEGIN
+    POPUP "Explorer"
+    BEGIN
+        MENUITEM "&Open",                       ID_OPEN
+        MENUITEM "Open &With....",              ID_OPEN_WITH
+        MENUITEM SEPARATOR
+        MENUITEM "&Compile",                    ID_DUMMY_COMPILE
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Remove",                     ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Properties...",              ID_PROPERTIES
+    END
+END
+
+IDR_OUTPUT_POPUP MENU
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Clear",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide",                       ID_VIEW_OUTPUTWND
+    END
+END
+
+IDR_THEME_MENU MENU
+BEGIN
+    MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_OFF_2007_BLUE
+    MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_OFF_2007_BLACK
+    MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_OFF_2007_SILVER
+    MENUITEM "Aqua Style",                  ID_VIEW_APPLOOK_OFF_2007_AQUA
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_FILE_IMPORT,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "E",            ID_FILE_EXPORT,         VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_EDITTHRESHDLG DIALOGEX 0, 0, 228, 155
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CBMS StatSim - Edit Thresholds"
+FONT 8, "Arial", 400, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_COMBO_PROVINCE,7,19,156,56,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_MUNICIPALITY,7,50,156,56,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_YEAR,7,80,57,56,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_URBANITY,107,79,57,56,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_POVTHRESH,14,127,97,13,WS_DISABLED
+    EDITTEXT        IDC_EDIT_SUBTHRESH,117,127,97,13,WS_DISABLED
+    PUSHBUTTON      "OK",IDOK,171,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,171,25,50,14
+    LTEXT           "Year:",IDC_LABEL_YEAR,8,68,57,11
+    LTEXT           "Province:",IDC_LABEL_PROVINCE,7,7,102,11
+    GROUPBOX        "Thresholds:",IDC_FRAME_THRESHOLDS,7,101,214,47
+    LTEXT           "Poverty:",IDC_LABEL_POVTHRESH,14,113,57,11
+    LTEXT           "Subsistence:",IDC_LABEL_SUBTHRESH,117,114,57,11
+    LTEXT           "Urbanity:",IDC_LABEL_URBANITY,107,67,57,11
+    LTEXT           "City/Municipality:",IDC_LABEL_MUNICIPALITY,7,37,102,11
+END
+
+IDD_PROCSELDLG DIALOGEX 0, 0, 346, 148
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "StatSim: Select levels to process"
+FONT 8, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,289,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,289,24,50,14
+    CONTROL         "",IDC_LISTUNSEL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,14,19,114,115
+    GROUPBOX        "Selection",IDC_FRAMESELECT,7,7,275,134
+    CONTROL         "",IDC_LISTSEL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,160,19,114,115
+    PUSHBUTTON      ">",IDC_SELECT,132,31,24,21,BS_ICON
+    PUSHBUTTON      "<",IDC_DESELECT,132,52,24,21,BS_ICON
+    PUSHBUTTON      ">>",IDC_SELECTALL,132,80,24,21,BS_ICON
+    PUSHBUTTON      "<<",IDC_DESELECTALL,132,101,24,21,BS_ICON
+END
+
+IDD_SELDATADLG DIALOGEX 0, 0, 241, 45
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose data:"
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "O&K",IDOK,184,7,50,14
+    PUSHBUTTON      "Ca&ncel",IDCANCEL,184,24,50,14
+    COMBOBOX        IDC_COMBO_DATA,7,7,169,56,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_MERGEDATADLG DIALOGEX 0, 0, 297, 252
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "StatSim: Interlinks"
+FONT 8, "Arial", 400, 0, 0xB2
+BEGIN
+    GROUPBOX        "Match data:",IDC_STATIC,7,7,283,40
+    COMBOBOX        IDC_COMBO_MASTER,14,28,120,60,CBS_DROPDOWNLIST | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_USING,162,28,120,60,CBS_DROPDOWNLIST | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Master (encoded[*])",IDC_STATIC,14,17,120,11
+    LTEXT           "Using (digitized[+])",IDC_STATIC,162,17,120,11
+    DEFPUSHBUTTON   "OK",IDOK,188,51,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,240,51,50,14
+    GROUPBOX        "Variables/columns",IDC_STATIC,7,83,283,81
+    LISTBOX         IDC_LIST_MASTER,15,93,116,65,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_USING,167,93,116,65,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Key",IDC_OPT_KEY,133,106,32,14
+    PUSHBUTTON      "Select",IDC_OPT_SELECT,133,122,32,14,WS_DISABLED
+    LISTBOX         IDC_LIST_MERGE,7,188,283,57,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_ADD,7,169,50,14
+    PUSHBUTTON      "Remove",IDC_REMOVE2,61,169,50,14
+END
+
+IDD_EXESQLDLG DIALOGEX 0, 0, 395, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "StatSim Execute SQL"
+FONT 8, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Run",IDC_RUN,285,81,50,14
+    EDITTEXT        IDC_EDIT_SQL,15,18,366,50,ES_MULTILINE | ES_AUTOHSCROLL
+    GROUPBOX        "Statement:",IDC_FRAME,7,7,381,69
+    PUSHBUTTON      "Close",IDC_CLOSE,338,81,50,14
+END
+
+IDD_EDITLEVELDLG DIALOGEX 0, 0, 423, 177
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit sub-village (Purok)"
+FONT 8, "Arial", 400, 0, 0xB2
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,366,59,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,366,75,50,14
+    CONTROL         "",IDC_LISTLEVELNAV,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,177,163
+    EDITTEXT        IDC_TEXTSELECT,192,7,224,45,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL
+    CONTROL         "",IDC_LISTLEVEL,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_EDITLABELS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,192,59,168,111
+    PUSHBUTTON      "Edit",IDC_EDIT,366,116,50,14
+END
+
+IDD_SWITCH DIALOGEX 0, 0, 229, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Choose"
+FONT 8, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,175,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,175,23,50,14
+    PUSHBUTTON      "Auto &selection of levels...",IDC_AUTOSELECTOPT,12,50,135,14
+    PUSHBUTTON      "Specify &path...",IDC_SPECPATHOPT,12,35,135,14
+    COMBOBOX        IDC_COMBOLEVEL,13,17,146,49,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Select questionnaire:",IDC_FRAMESELECT,7,7,155,77
+    PUSHBUTTON      "Select .can/.zip file...",IDC_SELCAN,12,65,135,14
+END
+
+IDD_CONFIGDLG DIALOGEX 0, 0, 449, 207
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "StatSim: Configure the Database"
+FONT 8, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,392,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,392,22,50,14
+    CONTROL         "",IDC_LISTSEL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,323,54,112,139
+    GROUPBOX        "Selection:",IDC_FRAMESELECT,173,39,269,161
+    CONTROL         "",IDC_LISTUNSEL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,180,54,112,139
+    PUSHBUTTON      ">",IDC_SELECT,295,74,24,21,BS_ICON
+    PUSHBUTTON      "<",IDC_DESELECT,295,96,24,21,BS_ICON
+    PUSHBUTTON      ">>",IDC_SELECTALL,295,122,24,21,BS_ICON
+    PUSHBUTTON      "<<",IDC_DESELECTALL,295,144,24,21,BS_ICON
+    COMBOBOX        IDC_COMBOLEVEL,13,17,133,41,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_TREELEVEL,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,7,42,155,158
+    PUSHBUTTON      "View selection",IDC_VIEW,171,16,68,15
+    PUSHBUTTON      "Change selection",IDC_CHANGE,243,16,68,15
+    GROUPBOX        "Specify level:",IDC_FRAMESELECT2,7,7,156,28
+END
+
+IDD_DATADEFNDLG DIALOGEX 0, 0, 271, 102
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "StatSim: Select definitions"
+FONT 8, "Arial", 400, 0, 0xB2
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,214,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,214,23,50,14
+    CONTROL         "",IDC_LISTDATADEFN,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,7,7,193,88
+END
+
+IDD_PROGRESSEXDLG DIALOGEX 0, 0, 438, 163
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "StatSim Progress"
+FONT 8, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,381,142,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,381,142,50,14,NOT WS_VISIBLE
+    CONTROL         "",IDC_PROGRESSLIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,14,18,410,111
+    GROUPBOX        "Files to import:",IDC_FRAMELIST,7,7,424,128
+    CONTROL         "",IDC_PROGRESSBAR,"msctls_progress32",WS_BORDER,7,143,369,13
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 217, 66
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About StatSimPro"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "StatSimPro, Version 5.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,160,45,50,14,WS_GROUP
+    EDITTEXT        IDC_EDIT_ABT,7,47,145,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_TRANSPARENT
+END
+
+IDD_LOGIN DIALOGEX 0, 0, 202, 168
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "CBMS StatSimPro"
+FONT 8, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,90,147,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,145,147,50,14
+    GROUPBOX        "Log Information:",IDC_STATIC,7,47,188,95
+    LTEXT           "Host:",IDC_LABELHOST,22,60,38,8
+    EDITTEXT        IDC_TEXTHOST,69,59,107,12,ES_AUTOHSCROLL
+    LTEXT           "Port:",IDC_LABELPORT,22,76,38,8
+    EDITTEXT        IDC_TEXTPORT,69,75,107,12,ES_AUTOHSCROLL
+    LTEXT           "Username:",IDC_LABELUSER,22,92,38,8
+    EDITTEXT        IDC_TEXTUSER,69,91,107,12,ES_AUTOHSCROLL
+    LTEXT           "Password:",IDC_LABELPWD,22,107,38,8
+    EDITTEXT        IDC_TEXTPWD,69,106,107,12,ES_AUTOHSCROLL
+    LTEXT           "Database:",IDC_LABELDB,22,123,38,8
+    COMBOBOX        IDC_COMBODB,69,122,107,87,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         145,IDC_BANNER,"Static",SS_BITMAP | SS_CENTERIMAGE,7,7,187,38
+END
+
+IDD_IMPORTSELPATH DIALOGEX 0, 0, 439, 190
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "StatSim Import Paths"
+FONT 8, "Arial", 400, 0, 0xB2
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,382,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,382,23,50,14
+    CONTROL         "",IDC_LISTPATH,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,14,18,356,158
+    GROUPBOX        "Files to import:",IDC_STATIC,7,7,370,176
+    PUSHBUTTON      "Auto &selection...",IDC_AUTOSEL,382,40,50,24,BS_MULTILINE
+    PUSHBUTTON      "&Add...",IDC_ADD,382,138,50,14
+    PUSHBUTTON      "&Remove...",IDC_REMOVE,382,154,50,14
+    PUSHBUTTON      "&Clear...",IDC_CLEAR,382,169,50,14
+END
+
+IDD_IMPORTAUTOSEL DIALOGEX 0, 0, 514, 205
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "StatSim Import Paths"
+FONT 8, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,457,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,457,23,50,14
+    CONTROL         "",IDC_LISTSEL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,315,34,131,158
+    GROUPBOX        "Selection:",IDC_FRAMESELECT,141,25,311,173
+    PUSHBUTTON      "Specify &path...",IDC_SPECIFYPATH,457,40,50,24,BS_MULTILINE
+    CONTROL         "",IDC_TREELEVEL,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_CHECKBOXES | WS_BORDER | WS_TABSTOP,7,7,128,191
+    CONTROL         "",IDC_LISTUNSEL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,148,35,131,158
+    PUSHBUTTON      "View selection",IDC_VIEW,140,7,68,15
+    PUSHBUTTON      "Change selection",IDC_CHANGE,211,7,68,15
+    PUSHBUTTON      ">",IDC_SELECT,285,72,24,20,BS_ICON
+    PUSHBUTTON      "<",IDC_DESELECT,285,92,24,20,BS_ICON
+    PUSHBUTTON      ">>",IDC_SELECTALL,285,118,24,20,BS_ICON
+    PUSHBUTTON      "<<",IDC_DESELECTALL,285,139,24,20,BS_ICON
+END
+
+IDD_PROGRESSDLG DIALOGEX 0, 0, 271, 47
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "StatSim Progress"
+FONT 8, "Arial", 400, 0, 0xB2
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,214,7,50,14,NOT WS_VISIBLE
+    CONTROL         "",IDC_PROGRESSBAR,"msctls_progress32",PBS_SMOOTH | WS_BORDER,7,24,257,15
+    LTEXT           "Label",IDC_PROGRESSLABEL,7,7,206,14
+END
+
+IDD_REMOVEAUTOSEL2 DIALOGEX 0, 0, 514, 205
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "StatSim Remove Households"
+FONT 8, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,457,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,457,23,50,14
+    CONTROL         "",IDC_LISTSEL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,315,34,131,158
+    GROUPBOX        "Selection:",IDC_FRAMESELECT,141,25,311,173
+    CONTROL         "",IDC_TREELEVEL,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_CHECKBOXES | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,7,128,191
+    CONTROL         "",IDC_LISTUNSEL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,148,35,131,158
+    PUSHBUTTON      "View selection",IDC_VIEW,140,7,68,15
+    PUSHBUTTON      "Change selection",IDC_CHANGE,211,7,68,15
+    PUSHBUTTON      ">",IDC_SELECT,285,72,24,20,BS_ICON
+    PUSHBUTTON      "<",IDC_DESELECT,285,92,24,20,BS_ICON
+    PUSHBUTTON      ">>",IDC_SELECTALL,285,118,24,20,BS_ICON
+    PUSHBUTTON      "<<",IDC_DESELECTALL,285,139,24,20,BS_ICON
+END
+
+IDD_CLEARSELHH DIALOGEX 0, 0, 271, 170
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "StatSim: Select groups to clear"
+FONT 8, "Arial", 400, 0, 0xB2
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,214,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,214,23,50,14
+    CONTROL         "",IDC_LISTDATADEFN,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,7,7,193,156
+END
+
+IDD_CMDDLG DIALOGEX 0, 0, 395, 103
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "StatSim Execute Command"
+FONT 8, "Arial", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Run",IDC_RUN,285,81,50,14
+    EDITTEXT        IDC_EDIT_SQL,15,18,366,50,ES_MULTILINE | ES_AUTOHSCROLL
+    GROUPBOX        "Statement:",IDC_FRAME,7,7,381,69
+    PUSHBUTTON      "Close",IDC_CLOSE,338,81,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,0,8,0
+ PRODUCTVERSION 6,0,8,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "PEP-Asia CBMS Network"
+            VALUE "FileDescription", "StatSimPro"
+            VALUE "FileVersion", "6.0.8.0"
+            VALUE "InternalName", "StatSimPro.exe"
+            VALUE "LegalCopyright", "(c) Joel Encarnacion Bancolita"
+            VALUE "OriginalFilename", "StatSimPro.exe"
+            VALUE "ProductName", "StatSimPro"
+            VALUE "ProductVersion", "6.0.8.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_EDITTHRESHDLG, DIALOG
+    BEGIN
+    END
+
+    IDD_PROCSELDLG, DIALOG
+    BEGIN
+    END
+
+    IDD_SELDATADLG, DIALOG
+    BEGIN
+    END
+
+    IDD_EXESQLDLG, DIALOG
+    BEGIN
+    END
+
+    IDD_EDITLEVELDLG, DIALOG
+    BEGIN
+    END
+
+    IDD_SWITCH, DIALOG
+    BEGIN
+        RIGHTMARGIN, 225
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_CONFIGDLG, DIALOG
+    BEGIN
+    END
+
+    IDD_DATADEFNDLG, DIALOG
+    BEGIN
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_LOGIN, DIALOG
+    BEGIN
+    END
+
+    IDD_IMPORTSELPATH, DIALOG
+    BEGIN
+    END
+
+    IDD_IMPORTAUTOSEL, DIALOG
+    BEGIN
+    END
+
+    IDD_REMOVEAUTOSEL2, DIALOG
+    BEGIN
+    END
+
+    IDD_CLEARSELHH, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 163
+    END
+
+    IDD_CMDDLG, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Ribbon
+//
+
+IDR_RIBBON              RT_RIBBON_XML           "res\\ribbon.mfcribbon-ms"
+
+IDR_RIBBON_BAK          RT_RIBBON_XML           "res\\ribbon1.mfcribbon-ms"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDS_STATSIM_DESC        "PEP-Asia CBMS Network StatSimPro"
+    IDS_STRING102           "\nStatSimPro Report\nStatSimPro\n\n\nStatSimPro.Document\nStatSimPro.Document"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "StatSimPro Report"
+    IDR_StatSimProTYPE      "\nStatSim Report "
+    ID_WINDOW_MANAGER       "&Windows..."
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "StatSimPro"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_DIRECT    "Print the active document using current options\nQuick Print"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle Status Bar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "Pane 1"
+    IDS_STATUS_PANE2        "Pane 2"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DATA_VIEW           "Data"
+    IDS_REPORT_VIEW         "Report"
+    IDS_OUTPUT_WND          "Output"
+    IDS_PROPERTIES_WND      "Properties"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EXPLORER            "Explorer"
+    IDS_EDIT_MENU           "Edit"
+    IDS_RIBBON_STATS        "&Statistics"
+    IDS_RIBBON_IMPORT       "Import"
+    IDS_RIBBON_EXPORT       "Export"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RIBBON_STYLE_DESC   "Choose one of the Office 2007 themes"
+    IDS_RIBBON_STATUSBAR    "Status Bar"
+    IDS_RIBBON_VIEW         "View"
+    IDS_BUILD_TAB           "Build"
+    IDS_DEBUG_TAB           "Debug"
+    IDS_FIND_TAB            "Find"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CAPTION_BUTTON      "Options..."
+    IDS_CAPTION_BUTTON_TIP  "Click here to see more options"
+    IDS_CAPTION_TEXT        "This is a caption bar where a message can be presented to the user."
+    IDS_CAPTION_IMAGE_TIP   "Important"
+    IDS_CAPTION_IMAGE_TEXT  "Here is an informational message for the user."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RIBBON_FILE         "File"
+    IDS_RIBBON_NEW          "&New"
+    IDS_RIBBON_OPEN         "&Open..."
+    IDS_RIBBON_SAVE         "&Save"
+    IDS_RIBBON_SAVEAS       "Save &As..."
+    IDS_RIBBON_PRINT        "Print"
+    IDS_RIBBON_PRINT_LABEL  "Preview and print the document"
+    IDS_RIBBON_PRINT_QUICK  "&Quick Print"
+    IDS_RIBBON_PRINT_PREVIEW "Print Pre&view"
+    IDS_RIBBON_PRINT_SETUP  "Print Set&up"
+    IDS_RIBBON_CLOSE        "&Close"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RIBBON_RECENT_DOCS  "Recent Documents"
+    IDS_RIBBON_EXIT         "E&xit"
+    IDS_RIBBON_HOME         "&File / Home"
+    IDS_RIBBON_CLIPBOARD    "Clipboard\nd"
+    IDS_RIBBON_PASTE        "Paste\nv"
+    IDS_RIBBON_CUT          "Cut\nx"
+    IDS_RIBBON_COPY         "Copy\nc"
+    IDS_RIBBON_SELECTALL    "Select All\na"
+    IDS_RIBBON_DATA         "&Data"
+    IDS_RIBBON_WINDOW       "Window\nw"
+    IDS_RIBBON_WINDOWS      "Windows\ni"
+    IDS_RIBBON_STYLE        "Style"
+    IDS_RIBBON_STYLE_TIP    "Modify Visual Style"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_IMPORT          "Import existing data"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_EXPORT          "Export"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_EXPORT_NRDB     "Core Indicators for CBMS-NRDB"
+    ID_FILE_EXPORT_DATA     "Select data to export"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TAB_NEW_RPT          "New tab to report"
+    ID_FILE_EXPORT_CCI_CSV  "CBMS CCI: Composite Indicators to CSV"
+    ID_TAB_NEW_PORTAL       "New tab to Portal"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_EXPORT_CORE_CSV "Core Indicators for QGIS"
+    ID_FILE_EXPORT_MDG_CSV  "Millennium Development Goals (MDGs) to CSV"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\StatSimPro.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#if !defined(_AFXDLL)
+#include "afxribbon.rc"              // MFC ribbon and control bar resources
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

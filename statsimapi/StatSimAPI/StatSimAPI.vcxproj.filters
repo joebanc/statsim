@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SSBatchProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSGCombo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSGEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSHeaderCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSTreeCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimADODB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimConn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimElt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimHTML.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimInd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimRS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimStats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimVars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimDct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StatSimAPI.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\checked.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\checked.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\checkstates.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\draghorz.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nocheck.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\partial.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\partially.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\StatSimAPI.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\unchecked.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\unchecked.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereProgress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBatchProc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSGCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSGEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSHeaderCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSTreeCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSVariants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimADODB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimConn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimElt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimHTML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimInd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimRS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimStats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimSvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimVars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimDct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stxutif.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StatSimAPI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+# Microsoft Developer Studio erstellte Abhängigkeitsdatei, einbezogen von GetVersion.mak
+
+.\GetVersion.cpp : \
+	".\GetVersion.h"\
+	".\GetVersionDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\GetVersion.rc : \
+	".\res\GetVersion.ico"\
+	".\res\GetVersion.rc2"\
+	
+
+.\GetVersionDlg.cpp : \
+	".\GetVersion.h"\
+	".\GetVersionDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

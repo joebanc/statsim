@@ -1,0 +1,17 @@
+create database nrdbnew;
+connect nrdbnew;
+CREATE TABLE `BDDictionary` ( `ID` integer not null,`Description` varchar(254));
+ALTER TABLE `BDDictionary` ADD CONSTRAINT bddictionary_1 PRIMARY KEY (`ID`);
+insert into `BDDictionary` ( `ID`, `Description` ) values (1, 'Default');
+CREATE TABLE `BDFeature_Types` (`ID` integer not null, `Description` varchar(254),`Internal` varchar(254), `Parent_FType` integer, `ManyToOne` bit,`Dictionary` integer);
+ALTER TABLE `BDFeature_Types` ADD CONSTRAINT bdfeature_types_1 PRIMARY KEY (`ID`);
+ALTER TABLE `BDFeature_Types` ADD CONSTRAINT bdfeature_types_2 FOREIGN KEY (`Dictionary`) REFERENCES `BDDictionary`( `ID`);
+CREATE TABLE `BDFtype_Attr` (`ID` integer not null, `Feature_Type_ID` integer not null,`Col_Name` varchar(254), `Description` varchar(254),`Data_Type_ID` integer, `FType_Link` integer, `Primary_Key` bit);
+ALTER TABLE `BDFtype_Attr` ADD CONSTRAINT bdftype_attr_1 PRIMARY KEY (`ID`,`Feature_Type_ID`);
+ALTER TABLE `BDFtype_Attr` ADD CONSTRAINT bdftype_attr_2 FOREIGN KEY (`Feature_Type_ID`) REFERENCES `BDFeature_Types`(`ID`);        
+CREATE TABLE `BDMain` ( `Version` integer, `Country` varchar(254),`Province` varchar(254), `City` varchar(254), `Organization` varchar(254),`Address`      varchar(254),  `Telephone` varchar(254), `Fax` varchar(254),`Email` varchar(254), `Logo` varchar(254), `Coordaslatlon` bit, `UseCustomHeader` bit, `CustomHeader` text, `UseCustomFooter` Bit, `CustomFooter` text, `StyleSheet` varchar(254));
+insert into `BDMain` ( `Version` ) values (3);
+CREATE TABLE `BDProjection` (`ID` integer not null, `Name` varchar(254),`Semi-major axis` double, `Semi-minor axis` double, `Latitude origin` double, `Longitude` double, `False easting` integer, `False northing` integer, `Scale factor at origin` double, `Scale Coords` integer,`Default` bit, `MinEasting` double, `MaxEasting` double,`MinNorthing` double, `MaxNorthing` double);      
+alter table bdprojection add constraint bdprojection_1 primary key (`ID`);
+create table `BDSymbol` (`ID` integer not null, `Image` longblob );
+ALTER TABLE `BDSymbol` ADD CONSTRAINT bdsymbol_1 PRIMARY KEY (`ID`);

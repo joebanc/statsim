@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nrdbapi", "NRDBAPI\NRDBAPI.vcproj", "{0213A033-C193-4697-9807-C8D3093D9D76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		MySQL Debug|Win32 = MySQL Debug|Win32
+		MySQL Release|Win32 = MySQL Release|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0213A033-C193-4697-9807-C8D3093D9D76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0213A033-C193-4697-9807-C8D3093D9D76}.MySQL Debug|Win32.ActiveCfg = Debug|Win32
+		{0213A033-C193-4697-9807-C8D3093D9D76}.MySQL Release|Win32.ActiveCfg = Release|Win32
+		{0213A033-C193-4697-9807-C8D3093D9D76}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

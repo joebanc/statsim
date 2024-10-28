@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportAutoSelDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportSelPathDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimPro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimProDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSimProView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditLevelDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcSelDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressExDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDefnDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalendarBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SwitchDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeSQLDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeDataDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelDataDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditThreshDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearSelHHDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unzip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csv_parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libcsv\libcsv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportAutoSelDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportSelPathDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimPro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimProDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSimProView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditLevelDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcSelDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressExDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDefnDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CalendarBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SwitchDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExeSQLDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeDataDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelDataDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditThreshDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearSelHHDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmdDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unzip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csv_parser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csv_v.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libcsv\csv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\0main.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\buttons.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\data_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\data_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\dataview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\dataview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\explorer.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\KEYS.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\login.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\Documents and Settings\bancolitaj\My Documents\My Pictures\login.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\output_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\output_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\report_view.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\report_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\reportview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\reportview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\StatSimPro.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\StatSimPro.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\StatSimProDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LoginDlg.htm" />
+    <None Include="ReadMe.txt" />
+    <None Include="s.htm" />
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\info.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nav_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nav_large_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pages_small.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\pages_small_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms" />
+    <None Include="res\unchecked.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\checked.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\nocheck.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\partially.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\globe.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\globeok.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ffwd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\frew.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\rew.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fwd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\textfile.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ribbon1.mfcribbon-ms" />
+    <None Include="res\html1.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StatSimPro.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

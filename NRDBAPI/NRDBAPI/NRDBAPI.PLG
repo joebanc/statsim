@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: nrdbapi - Win32 MySQL Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"MySQL_Release/nrdbapi-mysql.res" /d "NDEBUG" /d "_AFXDLL" "D:\richard\nrdb\nrdbapi\nrdbapi-mysql.rc"" 
+Creating temporary file "d:\temp\RSPF.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "NRDBAPI_EXPORTS" /D "_WINDLL" /D "_AFXDLL" /D "NRDBMYSQL" /Fp"MySQL_Release/nrdbapi.pch" /YX /Fo"MySQL_Release/" /Fd"MySQL_Release/" /FD /c 
+"D:\richard\nrdb\nrdbapi\Attribute.cpp"
+"D:\richard\nrdb\nrdbapi\BDAttribute.cpp"
+"D:\richard\nrdb\nrdbapi\BDConnect.cpp"
+"D:\richard\nrdb\nrdbapi\BDDisconnect.cpp"
+"D:\richard\nrdb\nrdbapi\BDFTypeAttr.cpp"
+"D:\richard\nrdb\nrdbapi\BDFTypeCreate.cpp"
+"D:\richard\nrdb\nrdbapi\BDGetEnd.cpp"
+"D:\richard\nrdb\nrdbapi\BDGetNext.cpp"
+"D:\richard\nrdb\nrdbapi\BDMainSet.cpp"
+"D:\richard\nrdb\nrdbapi\BDNextId.cpp"
+"D:\richard\nrdb\nrdbapi\BDProjectionSet.cpp"
+"D:\richard\nrdb\nrdbapi\BDTrans.cpp"
+"D:\richard\nrdb\nrdbapi\Coord.cpp"
+"D:\richard\nrdb\nrdbapi\Crecordx.cpp"
+"D:\richard\nrdb\nrdbapi\datatype.cpp"
+"D:\richard\nrdb\nrdbapi\DataTypeSet.cpp"
+"D:\richard\nrdb\nrdbapi\DictionarySet.cpp"
+"D:\richard\nrdb\nrdbapi\FeatureAttr.cpp"
+"D:\richard\nrdb\nrdbapi\FeatureSet.cpp"
+"D:\richard\nrdb\nrdbapi\FeatureTypeSet.cpp"
+"D:\richard\nrdb\nrdbapi\initialise.cpp"
+"D:\richard\nrdb\nrdbapi\maplines.cpp"
+"D:\richard\nrdb\nrdbapi\MapObject.cpp"
+"D:\richard\nrdb\nrdbapi\MySQLDbase.cpp"
+"D:\richard\nrdb\nrdbapi\nrdbapi.cpp"
+"D:\richard\nrdb\nrdbapi\nrdbase.cpp"
+"D:\richard\nrdb\nrdbapi\StdAfx.cpp"
+"D:\richard\nrdb\nrdbapi\SymbolSet.cpp"
+]
+Creating command line "cl.exe @d:\temp\RSPF.tmp" 
+Creating temporary file "d:\temp\RSP10.tmp" with contents
+[
+libmysql.lib /nologo /dll /incremental:no /pdb:"MySQL_Release/nrdbapi.pdb" /machine:I386 /def:".\nrdbapi.def" /out:"MySQL_Release/nrdbapi.dll" /implib:"MySQL_Release/nrdbapi.lib" 
+.\MySQL_Release\Attribute.obj
+.\MySQL_Release\BDAttribute.obj
+.\MySQL_Release\BDConnect.obj
+.\MySQL_Release\BDDisconnect.obj
+.\MySQL_Release\BDFTypeAttr.obj
+.\MySQL_Release\BDFTypeCreate.obj
+.\MySQL_Release\BDGetEnd.obj
+.\MySQL_Release\BDGetNext.obj
+.\MySQL_Release\BDMainSet.obj
+.\MySQL_Release\BDNextId.obj
+.\MySQL_Release\BDProjectionSet.obj
+.\MySQL_Release\BDTrans.obj
+.\MySQL_Release\Coord.obj
+.\MySQL_Release\Crecordx.obj
+.\MySQL_Release\datatype.obj
+.\MySQL_Release\DataTypeSet.obj
+.\MySQL_Release\DictionarySet.obj
+.\MySQL_Release\FeatureAttr.obj
+.\MySQL_Release\FeatureSet.obj
+.\MySQL_Release\FeatureTypeSet.obj
+.\MySQL_Release\initialise.obj
+.\MySQL_Release\maplines.obj
+.\MySQL_Release\MapObject.obj
+.\MySQL_Release\MySQLDbase.obj
+.\MySQL_Release\nrdbapi.obj
+.\MySQL_Release\nrdbase.obj
+.\MySQL_Release\StdAfx.obj
+.\MySQL_Release\SymbolSet.obj
+".\MySQL_Release\nrdbapi-mysql.res"
+]
+Creating command line "link.exe @d:\temp\RSP10.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Attribute.cpp
+BDAttribute.cpp
+BDConnect.cpp
+BDDisconnect.cpp
+BDFTypeAttr.cpp
+BDFTypeCreate.cpp
+BDGetEnd.cpp
+BDGetNext.cpp
+BDMainSet.cpp
+BDNextId.cpp
+BDProjectionSet.cpp
+BDTrans.cpp
+Coord.cpp
+Crecordx.cpp
+datatype.cpp
+DataTypeSet.cpp
+DictionarySet.cpp
+FeatureAttr.cpp
+FeatureSet.cpp
+FeatureTypeSet.cpp
+initialise.cpp
+maplines.cpp
+MapObject.cpp
+MySQLDbase.cpp
+nrdbapi.cpp
+nrdbase.cpp
+StdAfx.cpp
+SymbolSet.cpp
+Linking...
+   Creating library MySQL_Release/nrdbapi.lib and object MySQL_Release/nrdbapi.exp
+
+
+
+<h3>Results</h3>
+nrdbapi.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

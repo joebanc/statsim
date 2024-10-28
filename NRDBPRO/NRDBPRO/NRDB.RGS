@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{41105081-144A-11D3-ADF1-44C1F2C00000} = s 'NRDB'
+		'NRDB.EXE'
+		{
+			val AppID = s {41105081-144A-11D3-ADF1-44C1F2C00000}
+		}
+	}
+}

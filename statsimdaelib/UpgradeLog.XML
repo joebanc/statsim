@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="statsimdaelib">
+</Property><Property Name="Solution File" Value="D:\documents\current StatSimPro\statsimdaelib\statsimdaelib.sln">
+</Property><Property Name="User Options File" Value="D:\documents\current StatSimPro\statsimdaelib\statsimdaelib.suo">
+</Property><Property Name="Date" Value="Thursday, September 08, 2011">
+</Property><Property Name="Time" Value="11:05 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="statsimdaelib.sln" Description="File successfully backed up as D:\documents\current StatSimPro\statsimdaelib\statsimdaelib.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="statsimdaelib.suo" Description="File successfully backed up as D:\documents\current StatSimPro\statsimdaelib\statsimdaelib.suo.old">
+</Event><Event ErrorLevel="0" Project="statsimdaelib" Source="statsimdaelib\statsimdaelib.vcproj" Description="Converting project file 'D:\documents\current StatSimPro\statsimdaelib\statsimdaelib\statsimdaelib.vcproj'.">
+</Event><Event ErrorLevel="1" Project="statsimdaelib" Source="statsimdaelib\statsimdaelib.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="statsimdaelib" Source="statsimdaelib\statsimdaelib.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="statsimdaelib" Source="statsimdaelib\statsimdaelib.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="statsimdaelib" Source="statsimdaelib\statsimdaelib.vcproj" Description="MSB8012: $(TargetPath) ('D:\documents\current StatSimPro\statsimdaelib\statsimdaelib\Debug\statsimdaelib.dll') does not match the Linker's OutputFile property value '../../build/Debug\statsimdaelib.dll' ('D:\documents\current StatSimPro\statsimdaelib\../../build/Debug\statsimdaelib.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="statsimdaelib" Source="statsimdaelib\statsimdaelib.vcproj" Description="MSB8012: $(TargetPath) ('D:\documents\current StatSimPro\statsimdaelib\statsimdaelib\Release\statsimdaelib.dll') does not match the Linker's OutputFile property value '../../build/Release\statsimdaelib.dll' ('D:\documents\current StatSimPro\statsimdaelib\../../build/Release\statsimdaelib.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="statsimdaelib" Source="statsimdaelib\statsimdaelib.vcproj" Description="Done converting to new project file 'D:\documents\current StatSimPro\statsimdaelib\statsimdaelib\statsimdaelib.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="statsimdaelib" Source="statsimdaelib\statsimdaelib.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="statsimdaelib.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="statsimdaelib.sln" Description="Converted">
+</Event></UpgradeLog>

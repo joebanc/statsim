@@ -1,6 +1,5 @@
-# Windy
-This is **Windy**, a visualization of Wind conditions and air pressure over the Nordic and Baltic areas, using open 
-data from [SMHI](http://opendata.smhi.se/apidocs/metfcst/index.html).
+# STATSIM
+**STATSIM** is a local data statistics simulator originally developed for [Community Based Monitoring System (CBMS)](https://www.pep-net.org/methods/cbms).
 
 It is inspired from:
 * [Earth](https://earth.nullschool.net/#current/wind/surface/level/orthographic=-343.58,23.08,421)
